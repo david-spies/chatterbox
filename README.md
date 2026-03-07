@@ -2,8 +2,6 @@
 
 > A modern, tech-noir styled web chat app — rebuilt from the original Python/Tkinter desktop client to a lightweight, browser-based experience.
 
-![· zero dependencies](.github/banner.png)
-
 ---
 
 ## What is this?
