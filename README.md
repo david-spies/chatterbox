@@ -2,7 +2,7 @@
 
 > A modern, tech-noir styled web chat app — rebuilt from the original Python/Tkinter desktop client to a lightweight, browser-based experience.
 
-![Tech-noir chat · solarized green · slate blue · zero dependencies](.github/banner.png)
+![· zero dependencies](.github/banner.png)
 
 ---
 
