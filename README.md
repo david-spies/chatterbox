@@ -31,7 +31,7 @@ ChatterBox Web replaces the original `chatterbox_client.py` + `chatterbox_server
 
 ## Quick Start
 
-See [`quickstart.md`](docs/quickstart.md) for a step-by-step guide to running both the server and client on one machine.
+See [`quickstart.md`](quickstart.md) for a step-by-step guide to running both the server and client on one machine.
 
 ---
 
