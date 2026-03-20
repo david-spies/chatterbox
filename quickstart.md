@@ -46,7 +46,7 @@ source .venv/bin/activate
 # Windows:
 .venv\Scripts\activate
 
-pip install -r server/requirements.txt
+pip install -r requirements.txt
 ```
 
 ---
@@ -54,7 +54,7 @@ pip install -r server/requirements.txt
 ## Step 3 — Start the server
 
 ```bash
-python server/server.py
+python server.py
 ```
 
 You should see:
