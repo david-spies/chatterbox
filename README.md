@@ -1,4 +1,5 @@
 <img width="1174" height="640" alt="chatterbox" src="https://github.com/user-attachments/assets/34895a39-56f3-43c2-abaa-a75cb6fee190" />
+
 # ChatterBox Web App
 
 > A modern, tech-noir styled web chat app — rebuilt from the original Python/Tkinter desktop client to a lightweight, browser-based experience.
