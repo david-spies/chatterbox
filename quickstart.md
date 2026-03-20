@@ -18,7 +18,7 @@ This guide walks you through running a full **development environment on one mac
 
 ```bash
 # If using git:
-git clone <your-repo-url> chatterbox-web
+git clone https://github.com/david-spies/chatterbox.git
 cd chatterbox-web
 ```
 
