@@ -53,12 +53,6 @@ On a $4–6/month VPS (1 vCPU, 1GB RAM), you're realistically looking at:
 
 For a chat app like ChatterBox, you'd likely hit a social ceiling (how many people actually want to be in one chat room) long before you hit a technical one.
 
-> Why the numbers are so high
-The original Python TCP server used one thread per client — a model that hits a wall around 100–200 connections because each thread consumes ~8MB of stack memory and the OS spends more time context-switching than doing work.
-The new server.py uses Python's asyncio — a single-threaded event loop that handles all connections concurrently via cooperative multitasking. When a client is idle (which is 99.9% of the time in a chat app), it costs almost nothing. The server only "wakes up" for a connection when a message actually arrives.
-This changes the math dramatically:
-ModelMemory per client1GB RAM budgetPractical limitThread-per-client (original)~8MB~125 clients~100–150asyncio (your server.py)~50–100KB~10,000 clientsmemory is not your bottleneck
-
 > What actually limits you
 1. Broadcast cost — this is your real ceiling
 Every time someone sends a message, the server sends it to every connected client. With asyncio.gather(), this is fast, but it's still O(n) work per message. At 2,000 clients, one message = 2,000 individual socket writes happening simultaneously. This is manageable. At 50,000 it becomes a problem.
