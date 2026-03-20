@@ -30,7 +30,7 @@ Or unzip the downloaded archive and open a terminal inside the `chatterbox-web/`
 
 ```bash
 # From the project root:
-pip install -r server/requirements.txt
+pip install -r requirements.txt
 ```
 
 This installs only one package: `websockets`.
