@@ -19,7 +19,7 @@ This guide walks you through running a full **development environment on one mac
 ```bash
 # If using git:
 git clone https://github.com/david-spies/chatterbox.git
-cd chatterbox-web
+cd chatterbox
 ```
 
 Or unzip the downloaded archive and open a terminal inside the `chatterbox-web/` folder.
